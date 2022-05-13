@@ -10,13 +10,13 @@ function timing() {
 timing();
 
 let today = new Date();
-let hourNow = today.getHours();
+// let hourNow = today.getHours();
 let greeting;
-if (hourNow > 12) {
+if (today > 12) {
   greeting = "Goodafternoon" + "!!";
-} else if (hourNow > 18) {
+} else if (today > 18) {
   greeting = "Goodevening" + "!!";
-} else if (hourNow > 0) {
+} else if (today > 0) {
   greeting = "Goodmorning to you,how do you do " + "?";
 } else {
   greeting = "Welcome";
